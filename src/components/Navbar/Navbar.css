@@ -33,35 +33,35 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
 }
 
-/* Hamburger Menu */
+
 .hamburger {
-    display: none; /* Hidden by default */
+    display: none;
     background: none;
     border: none;
     font-size: 1.5rem;
     cursor: pointer;
 }
 
-/* Responsive Styles */
+
 @media (max-width: 768px) {
     .hamburger {
-        display: block; /* Show hamburger on small screens */
+        display: block;
     }
 
     .nav-links {
-        display: none; /* Hide links by default */
-        flex-direction: column; /* Stack links vertically */
-        width: 100%; /* Full width */
-        margin-top: 1rem; /* Space below */
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        margin-top: 1rem;
     }
 
     .nav-links.open {
-        display: flex; /* Show links when open */
+        display: flex;
     }
 
     .nav-link {
-        width: 100%; /* Full width for links */
-        text-align: center; /* Center text */
-        margin-bottom: 0.5rem; /* Space between links */
+        width: 100%;
+        text-align: center;
+        margin-bottom: 0.5rem;
     }
 }

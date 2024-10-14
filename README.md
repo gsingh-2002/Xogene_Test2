@@ -1,21 +1,40 @@
-# Initialize a new Git repository
-git init
+## Overview
 
-# Set your Git username and email
-git config user.name "gsingh-2002"
-git config user.email "gsingh.apr2002@gmail.com"
+This is a Vite application. Vite is a build tool that aims to provide a faster and leaner development experience for modern web projects.
 
-# Add all files to the staging area (or specify files as needed)
-git add .
+## Getting Started
 
-# Commit the changes
-git commit -m "first commit"
+### Prerequisites
 
-# Rename the default branch to 'main'
-git branch -M main
+- Node.js (v14 or above)
+- npm
 
-# Add the remote repository
-git remote add origin https://github.com/gsingh-2002/Xogene_test2.git
+### Installation
 
-# Push the changes to the remote repository
-git push -u origin main
+1. Clone the repository:
+
+```
+git clone https://github.com/gsingh-2002/Xogene_test2.git
+```
+
+2. Navigate to the project directory:
+
+```
+cd Xogene_test2
+```
+
+3. Install dependencies:
+
+```
+npm install
+```
+
+### Development
+
+To start the development server, run:
+
+```
+npm run dev
+```
+
+Your application will be available at `http://localhost:5173`.
